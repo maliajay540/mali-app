@@ -1,0 +1,17 @@
+import '../entities/user_entity.dart';
+import '../repositories/auth_repository.dart';
+
+class VerifyOtpUseCase {
+
+  final AuthRepository repository;
+
+  VerifyOtpUseCase(this.repository);
+
+  Future<UserEntity> call({
+    required String phone,
+    required String otp,
+  }) {
+    return repository.verifyOtp(phone: phone, otp: otp);
+  }
+
+}

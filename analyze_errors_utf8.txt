@@ -1,0 +1,65 @@
+﻿Analyzing mali_parivar_app...                                   
+
+  error - The name 'LoginPage' isn't a class - lib\app\router\app_router.dart:15:64 - creation_with_non_type
+   info - The imported package 'dio' isn't a dependency of the importing package - lib\features\auth\data\data_sources\auth_remote_data_source_impl.dart:1:8 - depend_on_referenced_packages
+  error - Target of URI doesn't exist: 'package:dio/dio.dart' - lib\features\auth\data\data_sources\auth_remote_data_source_impl.dart:1:8 - uri_does_not_exist
+  error - Undefined class 'Dio' - lib\features\auth\data\data_sources\auth_remote_data_source_impl.dart:7:9 - undefined_class
+  error - Undefined class 'AuthRepository' - lib\features\auth\domain\usecases\send_otp_usecase.dart:3:9 - undefined_class
+  error - Undefined class 'AuthRepository' - lib\features\auth\domain\usecases\verify_otp_usecase.dart:3:9 - undefined_class
+  error - The name 'UserEntity' isn't a type, so it can't be used as a type argument - lib\features\auth\domain\usecases\verify_otp_usecase.dart:7:10 - non_type_as_type_argument
+  error - Classes can only extend other classes - lib\features\auth\presentation\bloc\auth_bloc.dart:1:24 - extends_non_class
+  error - The name 'AuthEvent' isn't a type, so it can't be used as a type argument - lib\features\auth\presentation\bloc\auth_bloc.dart:1:29 - non_type_as_type_argument
+  error - The name 'AuthState' isn't a type, so it can't be used as a type argument - lib\features\auth\presentation\bloc\auth_bloc.dart:1:39 - non_type_as_type_argument
+  error - Undefined class 'SendOtpUseCase' - lib\features\auth\presentation\bloc\auth_bloc.dart:3:9 - undefined_class
+  error - Undefined class 'VerifyOtpUseCase' - lib\features\auth\presentation\bloc\auth_bloc.dart:4:9 - undefined_class
+  error - The method 'AuthInitial' isn't defined for the type 'AuthBloc' - lib\features\auth\presentation\bloc\auth_bloc.dart:9:14 - undefined_method
+  error - Too many positional arguments: 0 expected, but 1 found - lib\features\auth\presentation\bloc\auth_bloc.dart:9:14 - extra_positional_arguments
+  error - The method 'on' isn't defined for the type 'AuthBloc' - lib\features\auth\presentation\bloc\auth_bloc.dart:11:5 - undefined_method
+  error - The name 'SendOtpEvent' isn't a type, so it can't be used as a type argument - lib\features\auth\presentation\bloc\auth_bloc.dart:11:8 - non_type_as_type_argument
+  error - The method 'on' isn't defined for the type 'AuthBloc' - lib\features\auth\presentation\bloc\auth_bloc.dart:12:5 - undefined_method
+  error - The name 'VerifyOtpEvent' isn't a type, so it can't be used as a type argument - lib\features\auth\presentation\bloc\auth_bloc.dart:12:8 - non_type_as_type_argument
+  error - Undefined class 'SendOtpEvent' - lib\features\auth\presentation\bloc\auth_bloc.dart:17:5 - undefined_class
+  error - Undefined class 'Emitter' - lib\features\auth\presentation\bloc\auth_bloc.dart:18:5 - undefined_class
+  error - The name 'AuthState' isn't a type, so it can't be used as a type argument - lib\features\auth\presentation\bloc\auth_bloc.dart:18:13 - non_type_as_type_argument
+  error - The method 'AuthLoading' isn't defined for the type 'AuthBloc' - lib\features\auth\presentation\bloc\auth_bloc.dart:21:10 - undefined_method
+  error - The method 'OtpSent' isn't defined for the type 'AuthBloc' - lib\features\auth\presentation\bloc\auth_bloc.dart:27:12 - undefined_method
+  error - The method 'AuthError' isn't defined for the type 'AuthBloc' - lib\features\auth\presentation\bloc\auth_bloc.dart:31:12 - undefined_method
+  error - Undefined class 'VerifyOtpEvent' - lib\features\auth\presentation\bloc\auth_bloc.dart:38:5 - undefined_class
+  error - Undefined class 'Emitter' - lib\features\auth\presentation\bloc\auth_bloc.dart:39:5 - undefined_class
+  error - The name 'AuthState' isn't a type, so it can't be used as a type argument - lib\features\auth\presentation\bloc\auth_bloc.dart:39:13 - non_type_as_type_argument
+  error - The method 'AuthLoading' isn't defined for the type 'AuthBloc' - lib\features\auth\presentation\bloc\auth_bloc.dart:42:10 - undefined_method
+  error - The method 'Authenticated' isn't defined for the type 'AuthBloc' - lib\features\auth\presentation\bloc\auth_bloc.dart:51:12 - undefined_method
+  error - The method 'AuthError' isn't defined for the type 'AuthBloc' - lib\features\auth\presentation\bloc\auth_bloc.dart:55:12 - undefined_method
+  error - Classes can only extend other classes - lib\features\auth\presentation\pages\phone_login_page.dart:1:30 - extends_non_class
+  error - No associated named super constructor parameter - lib\features\auth\presentation\pages\phone_login_page.dart:3:31 - super_formal_parameter_without_associated_named
+  error - Undefined class 'Widget' - lib\features\auth\presentation\pages\phone_login_page.dart:6:3 - undefined_class
+warning - The method doesn't override an inherited method - lib\features\auth\presentation\pages\phone_login_page.dart:6:10 - override_on_non_overriding_member
+  error - Undefined class 'BuildContext' - lib\features\auth\presentation\pages\phone_login_page.dart:6:16 - undefined_class
+  error - The method 'TextEditingController' isn't defined for the type 'PhoneLoginPage' - lib\features\auth\presentation\pages\phone_login_page.dart:8:24 - undefined_method
+  error - The method 'Scaffold' isn't defined for the type 'PhoneLoginPage' - lib\features\auth\presentation\pages\phone_login_page.dart:10:12 - undefined_method
+  error - The method 'AppBar' isn't defined for the type 'PhoneLoginPage' - lib\features\auth\presentation\pages\phone_login_page.dart:11:15 - undefined_method
+  error - The name 'Text' isn't a class - lib\features\auth\presentation\pages\phone_login_page.dart:11:35 - creation_with_non_type
+  error - The method 'Padding' isn't defined for the type 'PhoneLoginPage' - lib\features\auth\presentation\pages\phone_login_page.dart:13:13 - undefined_method
+  error - The name 'all' isn't a class - lib\features\auth\presentation\pages\phone_login_page.dart:14:24 - creation_with_non_type
+  error - The method 'Column' isn't defined for the type 'PhoneLoginPage' - lib\features\auth\presentation\pages\phone_login_page.dart:16:16 - undefined_method
+  error - The method 'TextField' isn't defined for the type 'PhoneLoginPage' - lib\features\auth\presentation\pages\phone_login_page.dart:19:13 - undefined_method
+  error - Undefined name 'TextInputType' - lib\features\auth\presentation\pages\phone_login_page.dart:21:29 - undefined_identifier
+  error - The name 'InputDecoration' isn't a class - lib\features\auth\presentation\pages\phone_login_page.dart:22:33 - creation_with_non_type
+  error - The name 'SizedBox' isn't a class - lib\features\auth\presentation\pages\phone_login_page.dart:27:19 - creation_with_non_type
+  error - The method 'ElevatedButton' isn't defined for the type 'PhoneLoginPage' - lib\features\auth\presentation\pages\phone_login_page.dart:29:13 - undefined_method
+  error - The name 'AuthBloc' isn't a type, so it can't be used as a type argument - lib\features\auth\presentation\pages\phone_login_page.dart:32:30 - non_type_as_type_argument
+  error - The method 'SendOtpEvent' isn't defined for the type 'PhoneLoginPage' - lib\features\auth\presentation\pages\phone_login_page.dart:33:19 - undefined_method
+  error - The name 'Text' isn't a class - lib\features\auth\presentation\pages\phone_login_page.dart:37:28 - creation_with_non_type
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\features\dashboard\presentation\pages\dashboard_page.dart:141:62 - deprecated_member_use
+  error - The method 'isLoggedIn' isn't defined for the type 'AuthRepository' - lib\features\splash\domain\usecases\check_auth_status_usecase.dart:9:29 - undefined_method
+  error - Target of URI doesn't exist: 'features/auth/data/repositories/auth_repository.dart' - lib\main.dart:11:8 - uri_does_not_exist
+  error - The function 'AuthRemoteDataSourceImpl' isn't defined - lib\main.dart:30:11 - undefined_function
+  error - The function 'AuthRepositoryImpl' isn't defined - lib\main.dart:34:11 - undefined_function
+  error - The function 'LoginUseCase' isn't defined - lib\main.dart:37:34 - undefined_function
+  error - The function 'SignupUseCase' isn't defined - lib\main.dart:38:34 - undefined_function
+  error - The named parameter 'sendOtp' is required, but there's no corresponding argument - lib\main.dart:42:11 - missing_required_argument
+  error - The named parameter 'verifyOtp' is required, but there's no corresponding argument - lib\main.dart:42:11 - missing_required_argument
+  error - The named parameter 'loginUseCase' isn't defined - lib\main.dart:43:7 - undefined_named_parameter
+  error - The named parameter 'signupUseCase' isn't defined - lib\main.dart:44:7 - undefined_named_parameter
+  error - 'AuthBloc' doesn't conform to the bound 'StateStreamableSource<Object?>' of the type parameter 'T' - lib\main.dart:90:22 - type_argument_not_matching_bounds
+

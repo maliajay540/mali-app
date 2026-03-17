@@ -1,0 +1,24 @@
+﻿Analyzing mali_parivar_app...                                   
+
+   info - The imported package 'firebase_auth' isn't a dependency of the importing package - lib\features\auth\data\data_sources\firebase_auth_data_source_impl.dart:1:8 - depend_on_referenced_packages
+  error - Target of URI doesn't exist: 'package:firebase_auth/firebase_auth.dart' - lib\features\auth\data\data_sources\firebase_auth_data_source_impl.dart:1:8 - uri_does_not_exist
+  error - Undefined class 'FirebaseAuth' - lib\features\auth\data\data_sources\firebase_auth_data_source_impl.dart:6:9 - undefined_class
+warning - The value of the field '_verificationId' isn't used - lib\features\auth\data\data_sources\firebase_auth_data_source_impl.dart:10:11 - unused_field
+  error - Undefined name 'PhoneAuthProvider' - lib\features\auth\data\data_sources\firebase_auth_data_source_impl.dart:39:24 - undefined_identifier
+  error - Undefined class 'GetIt' - lib\features\auth\di\auth_module.dart:1:25 - undefined_class
+  error - Undefined name 'FirebaseAuth' - lib\features\auth\di\auth_module.dart:4:11 - undefined_identifier
+  error - The name 'FirebaseAuthDataSource' isn't a type, so it can't be used as a type argument - lib\features\auth\di\auth_module.dart:7:28 - non_type_as_type_argument
+  error - The function 'FirebaseAuthDataSourceImpl' isn't defined - lib\features\auth\di\auth_module.dart:8:11 - undefined_function
+  error - The name 'AuthApiDataSource' isn't a type, so it can't be used as a type argument - lib\features\auth\di\auth_module.dart:11:28 - non_type_as_type_argument
+  error - The function 'AuthApiDataSourceImpl' isn't defined - lib\features\auth\di\auth_module.dart:12:11 - undefined_function
+  error - The name 'AuthRepository' isn't a type, so it can't be used as a type argument - lib\features\auth\di\auth_module.dart:15:28 - non_type_as_type_argument
+  error - The function 'AuthRepositoryImpl' isn't defined - lib\features\auth\di\auth_module.dart:16:11 - undefined_function
+  error - The function 'SendOtpUseCase' isn't defined - lib\features\auth\di\auth_module.dart:20:11 - undefined_function
+  error - The function 'VerifyOtpUseCase' isn't defined - lib\features\auth\di\auth_module.dart:24:11 - undefined_function
+  error - The function 'AuthBloc' isn't defined - lib\features\auth\di\auth_module.dart:28:11 - undefined_function
+  error - Undefined class 'AuthRepository' - lib\features\auth\domain\usecases\send_otp_usecase.dart:3:9 - undefined_class
+  error - The method 'isLoggedIn' isn't defined for the type 'AuthRepository' - lib\features\splash\domain\usecases\check_auth_status_usecase.dart:9:29 - undefined_method
+  error - The name 'AuthRemoteDataSource' isn't a type, so it can't be used as a type argument - lib\main.dart:42:28 - non_type_as_type_argument
+  error - The function 'AuthRemoteDataSourceImpl' isn't defined - lib\main.dart:43:11 - undefined_function
+  error - 2 positional arguments expected by 'AuthRepositoryImpl.new', but 1 found - lib\main.dart:46:73 - not_enough_positional_arguments
+
